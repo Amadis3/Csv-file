@@ -1,0 +1,2 @@
+csvfile = open("myfile3.csv", "r", newline='')
+csvreader = csv.reader(csvfile)
