@@ -1,0 +1,12 @@
+import csv
+
+# Function to take user input for student details
+def get_student_input():
+    name = input("Enter student name: ")
+    subject = input("Enter subject: ")
+    grade = input("Enter grade: ")
+    attendance = input("Enter attendance percentage: ")
+    return [name, subject, grade, attendance]
+
+    student_data = get_student_input()
+    print("Collected Student Data:", student_data)
