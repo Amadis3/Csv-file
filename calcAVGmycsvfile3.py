@@ -1,7 +1,14 @@
 import csv
 
 csvfile = open("myfile3.csv", "r", newline='')
+print("File Created")
+
 csvreader = csv.reader(csvfile)
+csvreader.writenow(['Name', 'Age', 'City'])
+print("Colunms Created")
+
+csvwriter.writerow(['Alice', 12, 'New York'])
+print("Data Created")
 
 header = next(csvreader, None)
 print("Header:", header)
